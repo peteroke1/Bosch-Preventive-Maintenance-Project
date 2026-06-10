@@ -1,0 +1,19 @@
+pandas 
+numpy 
+matplotlib 
+seaborn 
+scikit-learn 
+imbalanced-learn 
+mlflow 
+fastapi 
+uvicorn 
+streamlit 
+dagshub
+plotly 
+joblib 
+python-dotenv 
+pytest
+requests
+from-root
+boto3
+-e .

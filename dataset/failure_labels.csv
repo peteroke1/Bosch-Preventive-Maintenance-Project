@@ -1,0 +1,10 @@
+failure_event_id,machine_id,failure_timestamp,failure_mode,degradation_start_timestamp,repair_cost_usd,downtime_hours
+F_001,HPU_01,2024-02-15,pump_wear,2024-02-01,25094,13.2
+F_002,HPU_02,2024-02-22,valve_leakage,2024-02-12,8711,9.8
+F_003,HPU_03,2024-02-08,contamination,2024-02-03,24507,6.3
+F_004,HPU_04,2024-02-28,pump_wear,2024-02-16,29482,22.4
+F_005,HPU_05,2024-01-31,valve_leakage,2024-01-21,14065,8.2
+F_006,HPU_06,2024-02-18,cylinder_drift,2024-02-10,23021,13.1
+F_007,HPU_07,2024-02-25,valve_leakage,2024-02-15,11598,8.7
+F_008,HPU_08,2024-02-12,pump_wear,2024-01-29,30336,14.5
+F_009,HPU_09,2024-01-26,contamination,2024-01-21,16482,10.5

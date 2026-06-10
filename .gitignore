@@ -3,6 +3,12 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+#env
+.env
+bosch-rexroth.pem
+logs/
+notebook/
+
 # C extensions
 *.so
 
