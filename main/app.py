@@ -2,6 +2,12 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import pandas as pd
 import mlflow.sklearn
+from io import BytesIO
+import boto3
+import os
+import joblib
+import json
+
 
 from src.connections.mlflow_setup import setup_mlflow
 from src.cloud.s3_storage import S3Storage
@@ -23,6 +29,7 @@ MODEL_NAME = "RandomForest_RUL"
 MODEL_STAGE = "latest"
 
 s3 = S3Storage(BUCKET_NAME)
+
 
 def load_artifacts():
     try:

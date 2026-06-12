@@ -15,6 +15,6 @@ class TrainingPipeline:
 
         logging.info("Training pipeline completed successfully.")
         
-if __name__ == "__main__":
-    pipeline = TrainingPipeline()
-    pipeline.train()
+# if __name__ == "__main__":
+#     pipeline = TrainingPipeline()
+#     pipeline.train()

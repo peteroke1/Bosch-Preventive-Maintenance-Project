@@ -141,8 +141,6 @@ class FeatureEngineering:
 #features = FeatureEngineering()
 #features.engineer_features()
 
-if __name__ == "__main__":
-    features = FeatureEngineering()
-    features.engineer_features()
+
 
 
