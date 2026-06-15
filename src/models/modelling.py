@@ -8,6 +8,8 @@ from src.features.feature_engineering import FeatureEngineering
 from src.logger import configure_logger
 from src.registry.model_registry import ModelRegistry
 from src.config.constant import BUCKET_NAME
+import os
+
 logging = configure_logger()
 
 
